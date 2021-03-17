@@ -141,4 +141,9 @@ core/generated/*.h
 
 # CLion build directories
 /cmake-build-debug/
-/cmake-build-release/
+/cmake-build-release
+
+# Node Module
+/node_modules/
+package-lock.json
+package.json
