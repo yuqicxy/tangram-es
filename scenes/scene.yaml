@@ -1,6 +1,6 @@
 global:
     feature_order: function () { return feature.sort_rank; }
-    sdk_api_key: ''
+    sdk_api_key: 'WeYi7eyBRCqhuWpli3cqPg'
 
 fonts:
     Montserrat:
@@ -104,7 +104,7 @@ styles:
 sources:
     osm:
         type: MVT
-        url: https://tile.nextzen.org/tilezen/vector/v1/256/all/{z}/{x}/{y}.mvt
+        url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt
         max_zoom: 16
         url_params:
             api_key: global.sdk_api_key
